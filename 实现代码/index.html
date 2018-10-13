@@ -8,19 +8,20 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="(max-width: 750px)" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
 
 
 </head>
 <body>
 
         <div class="navbar" >
-            <button class="btn btn-info data" href="#" style="display:none">个人资料
-            <br><img class="btn_img"  src="./images/people.gif"></button>
-            <button class="btn exp" href="#" style="display:none">项目经历
+            <button class="btn data"  href="#" >个人资料
+            <br><img class="btn_img"  src="./images/people.gif" style="background-size:contain"></button>
+            <button class="btn exp" href="#" >项目经历
             <br><img class="btn_img"  src="./images/experience.gif"></button>
-            <button class="btn rew" href="#" style="display:none">获奖情况
+            <button class="btn rew" href="#" >获奖情况
             <br><img class="btn_img"  src="./images/reward.gif"></button>
-            <button class="btn hob" href="#" style="display:none">兴趣爱好
+            <button class="btn hob" href="#" >兴趣爱好
             <br><img class="btn_img"  src="./images/hobby.gif"></button>
         </div>
 
@@ -29,21 +30,21 @@
         <div class="body">
             <div class="header">
                 <div>
-                    <img class="head_image" src="./images/default.gif" >
+                    <img class="head_image" src="./images/image1.jpg" >
                 </div>
                 <div>
                     <div class="name_area" style="display:none">
-                      <h2 style="font-family: '微软雅黑';">  Jokie's Profiles</h2>
+                      <h3>Jokie's Profiles</h3>
                     </div>
                 </div>
             </div>
             <div class="personal_data">
-                 <h1 style="text-align: center">个人资料</h1>
-                <div class="personal_text" style="display:none">
+                 <!-- <h1 style="text-align: center">个人资料</h1> -->
+                <div class="personal_text animated rubberBand"  style="display:none; height: 100%">
                    
                     <table>
                         <tr>
-                            <td>姓名：杨小松</td>
+                            <td>姓名：游小增</td>
                             
                         </tr>
                         <tr>
@@ -55,20 +56,20 @@
                             
                         </tr>
                         <tr>
-                            <td>籍贯：广东</td>
+                            <td>籍贯：湖南</td>
                             
                         </tr>
                         <tr>
-                            <td><br>    广东梅州民杨小松，世隶耕。小松生五年，未尝识书具，忽啼求之。父异焉，借旁近与之，即书诗四句，并自为其名。
+                            <td><br>    湖南衡阳民游小增，世隶耕。小增生五年，未尝识书具，忽啼求之。父异焉，借旁近与之，即书诗四句，并自为其名。
                                 其诗以养父母、收族为意，传一乡秀才观之。自是指物作诗立就，其文理皆有可观者。邑人奇之，稍稍宾客其父，或
-                                以钱币乞之。父利其然也，日扳小松环谒于邑人，不使学。
+                                以钱币乞之。父利其然也，日扳小增环谒于邑人，不使学。
                                 <br>　　余闻之也久。明道中，从先人还家，于儿子家见之，十二三矣。令作诗，不能称前时之闻。又七年，还自扬州，复
                                 到儿子家问焉。曰：“泯然众人矣。”
-                                <br>　　王子曰：小松之通悟，受之天也。其受之天也，贤于材人远矣。卒之为众人，则其受于人者不至也。彼其受之天
+                                <br>　　王子曰：小增之通悟，受之天也。其受之天也，贤于材人远矣。卒之为众人，则其受于人者不至也。彼其受之天
                                 也，如此其贤也，不受之人，且为众人；今夫不受之天，固众人，又不受之人，得为众人而已耶？</td>
                         </tr>
                         <tr>
-                            <td><img class="text_img" src="images/person_1.gif"><img class="text_img" src="images/person_2.gif"></td>
+                            <!-- <td><img class="text_img" src="images/person_1.gif"><img class="text_img" src="images/person_2.gif"></td> -->
                             <td></td>
                            
                         </tr>
@@ -77,23 +78,23 @@
                 </div>
             </div>
             <div class="experience">
-                <div class="experience_text" style="display:none">
+                <div class="experience_text animated wobble" style="display:none">
                     <h1 style="text-align: center">项目经历</h1>
                    <br>国家一等奖学金有力争夺者
                 <br>每年定期参与阿里公司世界级重点项目“双十一”，项目总金额超千亿元
                 <br>腾讯公司QQ、微信等应用长期测试人员
                 <br>陌陌、探探、积目、soul等社交软件高级VIP用户
-                <br><img class="text_img" src="images/experience_1.gif"><img class="text_img" src="images/experience_2.gif">
+                <br><img style="margin-top:5%" class="text_img_1" src="images/experience_1.gif"><img class="text_img_2" style="margin-top:5%" src="images/experience_2.gif">
                 </div>
             </div>
             <div class="reward">
-                <div class="reward_text" style="display:none">
+                <div class="reward_text animated rollIn" style="display:none">
                      <h1 style="text-align: center">获奖情况</h1>
                    <br>2006年《时代周刊》年度风云人物
                     <br>2008年“感动中国”特别奖
                     <br>同安区小学生英语阅读比赛三等奖
                     <br>六年级时曾获同安第一实验小学“三好学生”的殊荣
-                    <br><img class="text_img" src="images/reward_3.gif"><img class="text_img" src="images/reward_2.gif">
+                    <br><img class="text_img_rew1" src="images/reward_3.gif"><img class="text_img_rew2" src="images/reward_2.gif">
                 </div>
             </div>
             <div class="hobby">
@@ -106,20 +107,32 @@
                     <br>喜欢gay人也喜欢被gay
                     <br>琴棋书画样样精通
                     <br>说学逗唱信手拈来
-                    <br><img class="text_img" src="images/hobby_1.gif"><img class="text_img" src="images/hobby_2.gif">
+                    <br><img class="text_img_hobby1" src="images/hobby_1.gif"><img class="text_img_hobby2" src="images/hobby_2.gif">
                     <div>
                         <img src="">
                     </div>
                 </div>
             </div>
-
-
+            
+        </div>
+        <div class="contact">
+            <img style="height:30px;width:30px" src="./images/联系方式icon/电话.png" alt="">
+            <h4 id="con" style="display:inline">联系我</h4>
+            <div class="contact_way animated bounceInUp" style='display: none'>
+                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/Facebook.png" alt="">
+                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/QQ.png" alt="">
+                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/微信.png" alt="">
+                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/微博.png" alt="">
+            </div>
         </div>
     
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/jquery.js"></script>
 <script>
     $(function(){
+        $('.header').css({
+            'height': $(window).height()
+        })
         $('.personal_data').css({
         'height':$(window).height()
         })
@@ -140,86 +153,190 @@
     var reward_top_offset = $('.reward').offset().top;
     var hobby_top_offset = $('.hobby').offset().top;
 
+//  根据窗口垂直滚动条的位置设置动画 
     $(window).scroll(function () {      
             if(personal_data_top_offset - $(window).scrollTop() >= $(window).height()/2){
                 $('.personal_text').slideUp('fast')
                 $('.experience_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
+                $('.btn').css({
+                    'width': '25%',
+                    'height': '20%',
+                    'background-color': 'rgba(0,0,0,0.4)'
+                })
+                
             }
 
             if(personal_data_top_offset - $(window).scrollTop() < $(window).height()/2 &&
                experience_top_offset - $(window).scrollTop() >= $(window).height()/2)
                {
-                $('.personal_text').slideDown(3500)
-
-
+                $('.personal_text').show()
                 $('.experience_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
+                $('.btn').css({
+                    'width': '25%',
+                    'height': '20%',
+                    'background-color': 'rgba(0,0,0,0.4)'
+                })
+                $('.data').css({
+                    'width': '35%',
+                    'height': '25%',
+                    'background-color': 'rgba(0,0,0,0.6)'
+                })
             }
             else if(experience_top_offset - $(window).scrollTop() < $(window).height()/2 &&
             reward_top_offset - $(window).scrollTop() >= $(window).height()/2){
-                $('.experience_text').slideDown(3500)
+                $('.experience_text').show()
                 $('.personal_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
+                $('.btn').css({
+                    'width': '25%',
+                    'height': '20%',
+                    'background-color': 'rgba(0,0,0,0.4)'
+                })
+                $('.exp').css({
+                    'width': '35%',
+                    'height': '25%',
+                    'background-color': 'rgba(0,0,0,0.6)'
+                })
             }
             else if(reward_top_offset - $(window).scrollTop() < $(window).height()/2 &&
             hobby_top_offset - $(window).scrollTop() >= $(window).height()/2){
-                $('.reward_text').slideDown(3500)
+                $('.reward_text').show()
                 $('.personal_text').slideUp('fast')
                 $('.experience_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
+                $('.btn').css({
+                    'width': '25%',
+                    'height': '20%',
+                    'background-color': 'rgba(0,0,0,0.4)'
+                })
+                $('.rew').css({
+                    'width': '35%',
+                    'height': '25%',
+                    'background-color': 'rgba(0,0,0,0.6)'
+                })
             }
             else if(hobby_top_offset - $(window).scrollTop() < $(window).height()/2){
                 $('.hobby_text').slideDown(3500)
                 $('.personal_text').slideUp('fast')
                 $('.experience_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
+                $('.btn').css({
+                    'width': '25%',
+                    'height': '20%',
+                    'background-color': 'rgba(0,0,0,0.4)'
+                })
+                $('.hob').css({
+                    'width': '35%',
+                    'height': '25%',
+                    'background-color': 'rgba(0,0,0,0.6)'
+                })
             }
 
 
 
 
         })
-
+// 点击导航栏通过设置垂直滚动条的位置实现跳转，并设置相应的导航栏动画
     $('.data').on('click', function () {
-        $('html,body').animate({
-            scrollTop: personal_data_top_offset-10
-        },1000)
+        $('html,body').scrollTop(personal_data_top_offset-10)
+        $('.btn').css({
+            'width': '25%',
+            'height': '20%',
+            'background-color': 'rgba(0,0,0,0.4)'
+        })
+        $('.data').css({
+            'width': '35%',
+            'height': '25%',
+            'background-color': 'rgba(0,0,0,0.6)'
+        })
         // $('.personal_text').animate({
         //     'animation': turnning 1s;
         // })
         
     })
     $('.exp').on('click', function () {
-        $('html,body').animate({
-            scrollTop: experience_top_offset-10
-        },1000) 
+        $('html,body').scrollTop(experience_top_offset-10)
+        $('.btn').css({
+            'width': '25%',
+            'height': '20%',
+            'background-color': 'rgba(0,0,0,0.4)'
+        })
+        $('.exp').css({
+            'width': '35%',
+            'height': '25%',
+            'background-color': 'rgba(0,0,0,0.6)'
+        })
     })
     $('.rew').on('click', function () {
-        $('html,body').animate({
-            scrollTop: reward_top_offset-10
-        },1000) 
+        $('html,body').scrollTop(reward_top_offset-10)
+        $('.btn').css({
+            'width': '25%',
+            'height': '20%',
+            'background-color': 'rgba(0,0,0,0.4)'
+        })
+        $('.rew').css({
+            'width': '35%',
+            'height': '25%',
+            'background-color': 'rgba(0,0,0,0.6)'
+        })
     })
     $('.hob').on('click', function () {
-        $('html,body').animate({
-            scrollTop: hobby_top_offset-10
-        },1000) 
+        $('html,body').scrollTop(hobby_top_offset-10) 
+        $('.btn').css({
+            'width': '25%',
+            'height': '20%',
+            'background-color': 'rgba(0,0,0,0.4)'
+        })
+        $('.hob').css({
+            'width': '35%',
+            'height': '25%',
+            'background-color': 'rgba(0,0,0,0.6)'
+        })
     })
 
     $('.head_image').on('click', function () {
         $('.name_area').fadeIn('slow')
     })
 
-    $('.navbar').on('mouseenter', function () {
-        $('.btn').show()
+// 鼠标指针悬停出现联系方式
+    $('.contact').on('click', function () {
+        if($('.contact_way').css('display') == 'none'){
+            
+            $('.contact_way').css({
+                'display':'inline-block'
+            })
+            $('.contact_way').show()
+        }else{
+            $('.contact_way').hide()
+        }
+    })
+    $('.contact').on('mouseleave', function () {
+        $('.contact_way').hide()
     })
 
-    $('.navbar').on('mouseleave', function() {
-        $('.btn').fadeOut(500)
-    })
+
+    // $('.navbar').on('mouseenter', function () {
+    //     if($('.btn').hasClass('animated fadeOutLeft'))
+    //     {
+    //         $('.btn').removeClass('animated fadeOutLeft')
+    //     }
+    //     $('.btn').addClass('animated fadeInLeft')
+        
+    //     $('.btn').show()
+
+    // })
+
+    // $('.navbar').on('mouseleave', function() {
+    //     $('.btn').removeClass('animated fadeInLeft')
+    //     $('.btn').addClass('animated fadeOutLeft')
+
+
+    // })
 })
 
 </script>
