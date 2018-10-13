@@ -1,0 +1,121 @@
+/* @keyframes turnning{
+    0%   {transform: none}
+    25%  {transform: skewY(45deg)}
+    50%  {transform: skewY(90deg)}
+    75%  {transform: skewY(135deg)}
+    100% {transform: skewY(180deg)}
+} */
+@keyframes slide{
+    0%   {width: 0}
+
+    100% {width: 25%;;}
+}
+
+.navbar>*{
+    animation: slide 0.7s 1
+}
+
+div{
+    border: 2px;
+border-radius: 15px;
+     font-family: "微软雅黑";
+
+}
+body{
+    background: url(../images/image3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.7;
+    background-repeat: no-repeat;
+    font-family: "微软雅黑";
+
+}
+
+.body{
+    float: right;
+    width: 80%;
+
+}
+
+.body > *{
+    height: 575px;
+    background-color: rgba(0,0,0,0.4);
+
+    margin: 0 20% 40px 10%;
+    color: #BFEFFF;
+    padding: 10px 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+.hobby{
+    margin: 0 20% 40px 10%;
+}
+
+
+.navbar{
+    float: left;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+
+}
+.navbar >*{
+
+border: 2px;
+border-radius: 15px;
+    margin: 10% auto;
+    width: 25%;
+    height: 20%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
+.nav{
+    border: 5px;
+
+}
+
+
+.head_image{
+    margin: 10px auto;
+    display: block;
+    margin-bottom: 150px;
+
+border: 2px;
+border-radius: 50%;
+}
+
+.name_area{
+    margin: 10px 50px;
+    font-size: 80px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 1;
+    text-align: center
+}
+
+.btn{
+    font-size: 20px;
+    color: #BFEFFF;
+    background-color: rgba(0,0,0,0.4);
+}
+div>*{
+     font-family: "微软雅黑";
+     text-align: center;
+    
+}
+.btn_img{
+    height: 50px;
+    width: 50px;
+}
+
+.text_img{
+    margin-right: 10px;
+    margin-left: 10px;
+border: 2px;
+border-radius: 15px;
+  }

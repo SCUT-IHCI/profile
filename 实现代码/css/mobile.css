@@ -1,0 +1,60 @@
+body{
+    background: url(../images/mobile_background2.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.7;
+    background-repeat: no-repeat
+}
+
+
+.body > *{
+    background-color: rgba(0,0,0,0.4);
+    margin: 20px 3% 20px 6%;
+    color: aliceblue;
+    padding: 4px 4px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+
+
+.navbar{
+    margin-top: 30px;
+    float: left;
+    height: 60px;
+    width: 20%;
+    position: fixed;
+
+}
+
+.navbar >*{
+
+    padding-bottom: 80px;
+    margin-bottom: 70px;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.btn{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center
+}
+
+.name_area{
+    margin: 10px 50px;
+    font-size: 60px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 1;
+    text-align: center
+}
+h2{
+    font-size: 35px;
+}
+.head_image{
+    height: 200px;
+    width:200px;
+}
