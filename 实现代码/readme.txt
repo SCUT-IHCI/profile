@@ -23,4 +23,3 @@
 -js
   -jQuery.js
 index.html
-注：F12可以打开移动端web

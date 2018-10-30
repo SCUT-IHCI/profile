@@ -10,133 +10,259 @@
     <link rel="stylesheet" media="(max-width: 750px)" href="css/mobile.css">
     <link rel="stylesheet" href="css/animation.css">
 
+<style type="text/css">
+.wrap1{
+    top: 50%;
+           left: 25%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+   
+   .wrap2{
+    top: 65%;
+           left: 25%;
+    position: relative;
+    width: 450px;
+    height: 180px;
+    overflow: hidden;
+}   
+.wrap3{
+    top: 50%;
+           left: 40%;
+    position: relative;
+    width: 500px;
+    height: 180px;
+    overflow: hidden;
+}
+.inner-wrap{
+ margin-left: 120px;
+ width: 330px;
+ height: 180px;
+ overflow: hidden;
+ position: absolute;
+}
 
+  .circle1{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 50%;
+            background-color: #E51C8B;
+
+        }
+         .circle2{
+            position: absolute;
+            top: 0px;
+            left: 0px; 
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #47DBE4;
+            
+        }
+         .circle3{
+            position: absolute;
+
+            top:0px;
+            left: 0px;
+
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #10CCB5;
+                    }
+        .circle6{
+            position: absolute;
+            top: 0px;
+            left: 0px; 
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #3594E6;
+            display: inline;
+        }
+         .circle4{
+            margin-left: 60px;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #e6e5e1;
+        }
+         .circle5{
+             margin-left: 180px;
+            
+
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #1EAAD0;
+        }
+        
+    </style>
 </head>
 <body>
+    <div class="header">
+            <div>
+                <img class="head_image" src="./images/default.gif" >
+            </div>
 
-        <div class="navbar" >
-            <button class="btn data"  href="#" >个人资料
-            <br><img class="btn_img"  src="./images/people.gif" style="background-size:contain"></button>
-            <button class="btn exp" href="#" >项目经历
-            <br><img class="btn_img"  src="./images/experience.gif"></button>
-            <button class="btn rew" href="#" >获奖情况
-            <br><img class="btn_img"  src="./images/reward.gif"></button>
-            <button class="btn hob" href="#" >兴趣爱好
-            <br><img class="btn_img"  src="./images/hobby.gif"></button>
-        </div>
-
-
-
-        <div class="body">
-            <div class="header">
-                <div>
-                    <img class="head_image" src="./images/default.gif" >
+                <div class="name_area" style="display:none">
+                  <h1>Jokie's Profiles</h1>
+                  <h3>姓名：游小增
+                    <br>年龄：20
+                    <br>性别：男
+                   <br> 籍贯：湖南</h3> 
                 </div>
-                <div>
-                    <div class="name_area" style="display:none">
-                      <h3>Jokie's Profiles</h3>
+
+    </div>
+        <div class="profile clearfloat">
+            <div class="navbar" >
+                <button class="btn data"  href="#" >个人资料
+                <br><img class="btn_img"  src="./images/people.gif" style="background-size:contain"></button>
+                <button class="btn exp" href="#" >个人技能
+                <br><img class="btn_img"  src="./images/skill.gif"></button>
+                <button class="btn rew" href="#" >获奖经历
+                <br><img class="btn_img"  src="./images/reward.gif"></button>
+                <button class="btn hob" href="#" >兴趣爱好
+                <br><img class="btn_img"  src="./images/hobby.gif"></button>
+            </div>
+
+
+
+            <div class="body">
+                
+                <div class="personal_data">
+                    <!-- <h1 style="text-align: center">个人资料</h1> -->
+                    <div class="personal_text animated rubberBand"  style="display:none; height: 100%">
+                    
+                        <table>
+                            <tr>
+                                <td>姓名：游小增</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>年龄：20</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>性别：男</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>籍贯：湖南</td>
+                                
+                            </tr>
+                            <tr>
+                                <td><br>   
+                                    广东湖南人，华南理工大学本科应届毕业生，日常生活学习中都有着积极向上的态度，
+                                    <br>学习中认真刻苦，课程绩点平均3.85，出国绩点3.8，年级绩点排名在第3名，
+                                    <br>多门专业课均取得90分以上；生活中我兴趣广泛，平时学习之余注意锻炼，篮球，女排，二胡信手捏来；
+                                    <br>我注重创新技能的提升，积极参加各种科技竞赛，并获得多项校级，省级，国家级甚至国际级奖项。</td>
+                            </tr>
+                            <tr>
+                                <td><img class="text_img" src="images/person_1.gif"><img class="text_img" src="images/person_2.gif"></td>
+                                <td></td>
+                            
+                            </tr>
+                        </table>
+
                     </div>
                 </div>
-            </div>
-            <div class="personal_data">
-                 <!-- <h1 style="text-align: center">个人资料</h1> -->
-                <div class="personal_text animated rubberBand"  style="display:none; height: 100%">
-                   
-                    <table>
-                        <tr>
-                            <td>姓名：游小增</td>
-                            
-                        </tr>
-                        <tr>
-                            <td>年龄：20</td>
+                <div class="skill">
+                    <div class="skill_text animated wobble" style="display:none">
+                         <h1 style="text-align: center">个人技能</h1>
+                         <br><img  src="images/ability.gif" style="float: right;">
+                    <div class="wrap1">
+                        <div class="circle1"></div>
+                    </div>  
+                      <div class="wrap2"><div class="circle2"></div><div class="inner-wrap"><div class="circle3"></div><div class="circle5"></div></div></div>
+                    <div class="wrap3"> <div class="circle4"></div><div class="circle6"></div></div>
+                        <!-- <br><img style="margin-top:5%" class="text_img_1" src="images/skill_1.gif"><img class="text_img_2" style="margin-top:5%" src="images/skill_2.gif"> -->
                         
-                        </tr>
-                        <tr>
-                            <td>性别：男</td>
                             
-                        </tr>
-                        <tr>
-                            <td>籍贯：湖南</td>
-                            
-                        </tr>
-                        <tr>
-                            <td><br>    湖南衡阳民游小增，世隶耕。小增生五年，未尝识书具，忽啼求之。父异焉，借旁近与之，即书诗四句，并自为其名。
-                                其诗以养父母、收族为意，传一乡秀才观之。自是指物作诗立就，其文理皆有可观者。邑人奇之，稍稍宾客其父，或
-                                以钱币乞之。父利其然也，日扳小增环谒于邑人，不使学。
-                                <br>　　余闻之也久。明道中，从先人还家，于儿子家见之，十二三矣。令作诗，不能称前时之闻。又七年，还自扬州，复
-                                到儿子家问焉。曰：“泯然众人矣。”
-                                <br>　　王子曰：小增之通悟，受之天也。其受之天也，贤于材人远矣。卒之为众人，则其受于人者不至也。彼其受之天
-                                也，如此其贤也，不受之人，且为众人；今夫不受之天，固众人，又不受之人，得为众人而已耶？</td>
-                        </tr>
-                        <tr>
-                            <!-- <td><img class="text_img" src="images/person_1.gif"><img class="text_img" src="images/person_2.gif"></td> -->
-                            <td></td>
-                           
-                        </tr>
-                    </table>
-
+                    </div>
+                    
                 </div>
-            </div>
-            <div class="experience">
-                <div class="experience_text animated wobble" style="display:none">
-                    <h1 style="text-align: center">项目经历</h1>
-                   <br>国家一等奖学金有力争夺者
-                <br>每年定期参与阿里公司世界级重点项目“双十一”，项目总金额超千亿元
-                <br>腾讯公司QQ、微信等应用长期测试人员
-                <br>陌陌、探探、积目、soul等社交软件高级VIP用户
-                <br><img style="margin-top:5%" class="text_img_1" src="images/experience_1.gif"><img class="text_img_2" style="margin-top:5%" src="images/experience_2.gif">
-                </div>
-            </div>
-            <div class="reward">
-                <div class="reward_text animated rollIn" style="display:none">
-                     <h1 style="text-align: center">获奖情况</h1>
-                   <br>2006年《时代周刊》年度风云人物
-                    <br>2008年“感动中国”特别奖
-                    <br>同安区小学生英语阅读比赛三等奖
-                    <br>六年级时曾获同安第一实验小学“三好学生”的殊荣
-                    <br><img class="text_img_rew1" src="images/reward_3.gif"><img class="text_img_rew2" src="images/reward_2.gif">
-                </div>
-            </div>
-            <div class="hobby">
-                <div class="hobby_text" style="display:none">
-                     <h1 style="text-align: center">兴趣爱好</h1>
-                    <br>喜欢篮球
-                    <br>喜欢美剧TVB剧各种剧
-                    <br>喜欢好看的女生
-                    <br>也喜欢好看的男生
-                    <br>喜欢gay人也喜欢被gay
-                    <br>琴棋书画样样精通
-                    <br>说学逗唱信手拈来
-                    <br><img class="text_img_hobby1" src="images/hobby_1.gif"><img class="text_img_hobby2" src="images/hobby_2.gif">
-                    <div>
-                        <img src="">
+                <div class="reward">
+                    <div class="reward_text animated rollIn" style="display:none">
+                       
+                        <h1 style="text-align: center">获奖经历</h1>
+                      <br>独立开发自己的博客
+                <br>独立建立一个小型的课程表导入app用于自用，并推广给同学
+                <br>独立开发排序算法可视化教学程序
+                <br>独立开发人脸识别式安卓手机应用锁
+                <br>团队模仿开发京东自营式购物网站
+                <br>团队开发教室人脸识别签到系统
+                <br>连续四年获得国家奖学金
+                <br>参加并获得ACM中国赛区金奖
+                <br>参加并获得美国数学建模大赛一等奖
+                <br>参加并获得全国大学生双创金奖
+                <br>参加并获得阿里天梯赛前30名
+                        <br><img class="text_img_rew1" src="images/reward_3.gif"><img class="text_img_rew2" src="images/reward_2.gif">
                     </div>
                 </div>
+                <div class="hobby">
+                    <div class="hobby_text" style="display:none">
+                        <h1 style="text-align: center">兴趣爱好</h1>
+                         <br>喜欢篮球
+                <br>喜欢打女排
+                <br>喜欢拉二胡
+               <br> 喜欢研究日本电影发展史
+               <br>喜欢美剧TVB剧各种剧
+                <br>造轮子
+                <br>开发嵌入式系统智能硬件设备
+                        <br><img class="text_img_hobby1" src="images/hobby_1.gif"><img class="text_img_hobby2" src="images/hobby_2.gif">
+                        <div style="margin:auto 0; ">
+                            <canvas id="main" width="500" height="350" style="margin:0 auto"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            
+            <div class="clear" style="clear:both"></div>
         </div>
-        <div class="contact">
-            <img style="height:30px;width:30px" src="./images/联系方式icon/电话.png" alt="">
-            <h4 id="con" style="display:inline">联系我</h4>
-            <div class="contact_way animated bounceInUp" style='display: none'>
-                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/Facebook.png" alt="">
-                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/QQ.png" alt="">
-                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/微信.png" alt="">
-                <img style="height:50px;width:50px;display: block;margin-top: 5px" src="./images/联系方式icon/微博.png" alt="">
+        <div class="bottom-bar">
+            <form action="">
+                <div style="margin:10px auto">
+                    电子邮箱
+                    <input class="contact_text" type="text">
+                </div>
+                
+                <div style="margin:10px auto">
+                    联系电话
+                    <input class="contact_text" type="text">
+                </div>
+                <div class="contact_btn" style="margin:10px auto">
+                
+                      <b>联系我吧</b> 
+                
+                </div>
+            </form>
+            <div class="contact" style="margin:10px auto">
+                <div class="contact_way">
+                    <img style="height:50px;width:50px;margin-top: 5px" src="./images/联系方式icon/Facebook.png" alt="">
+                    <img style="height:50px;width:50px;margin-top: 5px" src="./images/联系方式icon/QQ.png" alt="">
+                    <img style="height:50px;width:50px;margin-top: 5px" src="./images/联系方式icon/微信.png" alt="">
+                    <img style="height:50px;width:50px;margin-top: 5px" src="./images/联系方式icon/微博.png" alt="">
+                </div>
             </div>
         </div>
-    
 </body>
+<script type="text/javascript" src="./js/echarts.common.min.js"></script>
 <script src="./js/jquery.js"></script>
+
 <script>
     $(function(){
         $('.header').css({
-            'height': $(window).height()
+            'height': $(window).height()/1.5
         })
         $('.personal_data').css({
         'height':$(window).height()
         })
-        $('.experience').css({
+        $('.skill').css({
         'height':$(window).height()
         })
         $('.reward').css({
@@ -149,91 +275,104 @@
 
 
     var personal_data_top_offset = $('.personal_data').offset().top;
-    var experience_top_offset = $('.experience').offset().top;
+    var skill_top_offset = $('.skill').offset().top;
     var reward_top_offset = $('.reward').offset().top;
     var hobby_top_offset = $('.hobby').offset().top;
+    var navbar_top_offset = $('.navbar').offset().top
 
 //  根据窗口垂直滚动条的位置设置动画 
     $(window).scroll(function () {      
             if(personal_data_top_offset - $(window).scrollTop() >= $(window).height()/2){
                 $('.personal_text').slideUp('fast')
-                $('.experience_text').slideUp('fast')
+                $('.skill_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
                 $('.btn').css({
                     'width': '25%',
                     'height': '20%',
-                    'background-color': 'rgba(0,0,0,0.4)'
+                    'background-color': 'rgba(255,255,255,0.4)'
                 })
                 
             }
 
             if(personal_data_top_offset - $(window).scrollTop() < $(window).height()/2 &&
-               experience_top_offset - $(window).scrollTop() >= $(window).height()/2)
+               skill_top_offset - $(window).scrollTop() >= $(window).height()/2)
                {
                 $('.personal_text').show()
-                $('.experience_text').slideUp('fast')
+                $('.skill_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
                 $('.btn').css({
                     'width': '25%',
                     'height': '20%',
-                    'background-color': 'rgba(0,0,0,0.4)'
+                    'background-color': 'rgba(255,255,255,255.4)'
                 })
                 $('.data').css({
                     'width': '35%',
                     'height': '25%',
-                    'background-color': 'rgba(0,0,0,0.6)'
+                    'background-color': 'rgba(255,255,255,0.6)'
                 })
             }
-            else if(experience_top_offset - $(window).scrollTop() < $(window).height()/2 &&
+            else if(skill_top_offset - $(window).scrollTop() < $(window).height()/2 &&
             reward_top_offset - $(window).scrollTop() >= $(window).height()/2){
-                $('.experience_text').show()
+                $('.skill_text').show()
                 $('.personal_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
                 $('.btn').css({
                     'width': '25%',
                     'height': '20%',
-                    'background-color': 'rgba(0,0,0,0.4)'
+                    'background-color': 'rgba(255,255,255,0.4)'
                 })
                 $('.exp').css({
                     'width': '35%',
                     'height': '25%',
-                    'background-color': 'rgba(0,0,0,0.6)'
+                    'background-color': 'rgba(255,255,255,0.6)'
                 })
             }
             else if(reward_top_offset - $(window).scrollTop() < $(window).height()/2 &&
             hobby_top_offset - $(window).scrollTop() >= $(window).height()/2){
                 $('.reward_text').show()
                 $('.personal_text').slideUp('fast')
-                $('.experience_text').slideUp('fast')
+                $('.skill_text').slideUp('fast')
                 $('.hobby_text').slideUp('fast')
                 $('.btn').css({
                     'width': '25%',
                     'height': '20%',
-                    'background-color': 'rgba(0,0,0,0.4)'
+                    'background-color': 'rgba(255,255,255,0.4)'
                 })
                 $('.rew').css({
                     'width': '35%',
                     'height': '25%',
-                    'background-color': 'rgba(0,0,0,0.6)'
+                    'background-color': 'rgba(255,255,255,0.6)'
                 })
             }
             else if(hobby_top_offset - $(window).scrollTop() < $(window).height()/2){
                 $('.hobby_text').slideDown(3500)
                 $('.personal_text').slideUp('fast')
-                $('.experience_text').slideUp('fast')
+                $('.skill_text').slideUp('fast')
                 $('.reward_text').slideUp('fast')
                 $('.btn').css({
                     'width': '25%',
                     'height': '20%',
-                    'background-color': 'rgba(0,0,0,0.4)'
+                    'background-color': 'rgba(255,255,255,0.4)'
                 })
                 $('.hob').css({
                     'width': '35%',
                     'height': '25%',
-                    'background-color': 'rgba(0,0,0,0.6)'
+                    'background-color': 'rgba(255,255,255,0.6)'
+                })
+            }
+
+            if(navbar_top_offset - $(window).scrollTop() < 10){
+                $('.navbar').css({
+                    'position': 'fixed',
+                    'bottom': '10px',
+                    'left': '20px'
+                })
+            }else{
+                $('.navbar').css({
+                    'position': 'relative'
                 })
             }
 
@@ -247,12 +386,12 @@
         $('.btn').css({
             'width': '25%',
             'height': '20%',
-            'background-color': 'rgba(0,0,0,0.4)'
+            'background-color': 'rgba(255,255,255,0.4)'
         })
         $('.data').css({
             'width': '35%',
             'height': '25%',
-            'background-color': 'rgba(0,0,0,0.6)'
+            'background-color': 'rgba(255,255,255,0.6)'
         })
         // $('.personal_text').animate({
         //     'animation': turnning 1s;
@@ -260,16 +399,16 @@
         
     })
     $('.exp').on('click', function () {
-        $('html,body').scrollTop(experience_top_offset-10)
+        $('html,body').scrollTop(skill_top_offset-10)
         $('.btn').css({
             'width': '25%',
             'height': '20%',
-            'background-color': 'rgba(0,0,0,0.4)'
+            'background-color': 'rgba(255,255,255,0.4)'
         })
         $('.exp').css({
             'width': '35%',
             'height': '25%',
-            'background-color': 'rgba(0,0,0,0.6)'
+            'background-color': 'rgba(255,255,255,0.6)'
         })
     })
     $('.rew').on('click', function () {
@@ -277,12 +416,12 @@
         $('.btn').css({
             'width': '25%',
             'height': '20%',
-            'background-color': 'rgba(0,0,0,0.4)'
+            'background-color': 'rgba(255,255,255,0.4)'
         })
         $('.rew').css({
             'width': '35%',
             'height': '25%',
-            'background-color': 'rgba(0,0,0,0.6)'
+            'background-color': 'rgba(255,255,255,0.6)'
         })
     })
     $('.hob').on('click', function () {
@@ -290,12 +429,12 @@
         $('.btn').css({
             'width': '25%',
             'height': '20%',
-            'background-color': 'rgba(0,0,0,0.4)'
+            'background-color': 'rgba(255,255,255,0.4)'
         })
         $('.hob').css({
             'width': '35%',
             'height': '25%',
-            'background-color': 'rgba(0,0,0,0.6)'
+            'background-color': 'rgba(255,255,255,0.6)'
         })
     })
 
@@ -304,39 +443,100 @@
     })
 
 // 鼠标指针悬停出现联系方式
-    $('.contact').on('click', function () {
-        if($('.contact_way').css('display') == 'none'){
+    // $('.contact').on('click', function () {
+    //     if($('.contact_way').css('display') == 'none'){
             
-            $('.contact_way').css({
-                'display':'inline-block'
-            })
-            $('.contact_way').show()
-        }else{
-            $('.contact_way').hide()
-        }
-    })
-    $('.contact').on('mouseleave', function () {
-        $('.contact_way').hide()
-    })
-
-
-    // $('.navbar').on('mouseenter', function () {
-    //     if($('.btn').hasClass('animated fadeOutLeft'))
-    //     {
-    //         $('.btn').removeClass('animated fadeOutLeft')
+    //         $('.contact_way').css({
+    //             'display':'inline-block'
+    //         })
+    //         $('.contact_way').show()
+    //     }else{
+    //         $('.contact_way').hide()
     //     }
-    //     $('.btn').addClass('animated fadeInLeft')
-        
-    //     $('.btn').show()
-
+    // })
+    // $('.contact').on('mouseleave', function () {
+    //     $('.contact_way').hide()
     // })
 
-    // $('.navbar').on('mouseleave', function() {
-    //     $('.btn').removeClass('animated fadeInLeft')
-    //     $('.btn').addClass('animated fadeOutLeft')
 
 
-    // })
+// 使用echarts制作图表
+    var mychart = echarts.init(document.getElementById('main'))
+    option = {
+
+    title: {
+        text: '技能',
+        left: 'center',
+        top: 0,
+        // textStyle: {
+        //     color: '#ccc'
+        // }
+    },
+
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    
+    visualMap: {
+        show: false,
+        min: 80,
+        max: 700,
+        inRange: {
+            colorLightness: [0, 1]
+        }
+    },
+    series : [
+        {
+            name:'What can I do',
+            type:'pie',
+            radius : '55%',
+            // center: ['50%', '50%'],
+            data:[
+                {value:335, name:'抓bug'},
+                {value:310, name:'拉丁'},
+                {value:274, name:'篮球'},
+                {value:235, name:'乒乓球'},
+                {value:400, name:'吉他'}
+            ].sort(function (a, b) { return a.value - b.value; }),
+            roseType: 'radius',
+            label: {
+                normal: {
+                    textStyle: {
+                        color: 'rgba(0, 0, 0)',
+                        
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    lineStyle: {
+                        color: 'rgba(0, 0, 0,0.5)'
+
+                    },
+                    smooth: 0.2,
+                    length: 10,
+                    length2: 20
+                }
+            },
+            itemStyle: {
+                normal: {
+                    color: '#c23531',
+                    shadowBlur: 200,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            },
+
+            animationType: 'scale',
+            animationEasing: 'elasticOut',
+            animationDelay: function (idx) {
+                return Math.random() * 200;
+            }
+        }
+    ]
+
+};
+mychart.setOption(option);
 })
 
 </script>
