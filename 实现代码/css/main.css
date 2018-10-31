@@ -24,11 +24,11 @@ div .profile{
 
 
 .header{
-
+/*background: url(../images/head_bg1.gif);*/
     color: #919191;
     line-height: 1.5;
     font-size: 20px;
-    background-color: white;
+    background-color: rgba(255,255,255,0.5);
     margin-bottom: 20px;
 
 }
@@ -36,7 +36,7 @@ div .profile{
     padding: 15px 0;
 }
 body{
-    background: url(../images/image3.jpg);
+    background: url(../images/bg1.jpg);
     background-attachment: fixed;
     background-size: cover;
     line-height: 1.7;
@@ -54,7 +54,7 @@ body{
 
 .body > *{
 /*    background-color: white;
-*/    background-color: rgba(255,255,255,0.9);
+*/    background-color: rgba(255,255,255,0.5);
 
     margin: 0 20% 40px 10%;
     color: #919191;
@@ -113,7 +113,7 @@ body{
 .btn{
     font-size: 100%;
     color: #919191;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.5);
     width: 25%;
     padding: 10px 0
 
@@ -148,10 +148,12 @@ border-radius: 15px;
 }
 
 .bottom-bar{
-    background-color: white;
+    position: center;
+     background-color: rgba(255,255,255,0.5);
     height: 40%;
-    width: 80%;
-    float: right;
+    width: 64%;
+    margin-left: 
+   /* float: right;*/
 }
 .contact_test{
     width:100px;height:30px;line-height:30px;
