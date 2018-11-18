@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简历|易烊千玺</title>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="myCss.css">
+    <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <script>
+         /*change*/
+        window.onload = function(){
+            var imgs1 = ['e1-1.jpeg','e1-2.jpg','e1-3.jpg'];
+            var len = imgs1.length;
+            var current = 0;
+            var target = document.getElementById('img1');
+            var setImg = function(){
+                target.src = imgs1[current];
+                current = ++current == len ? 0: current;
+            };
+            setImg();
+            document.getElementById('btn').onclick = function() {
+                setImg();
+            }};
+         $(document).ready(function(){
+
+             var b = $("#solutionList li");
+             b.mouseover(function() {
+                 var e = $(this);
+                 b.removeClass("active");
+                 e.addClass("active")
+             });
+
+         });
+         jQuery(document).ready(function ($) {
+             $('ul.cards-split').on('click', function () {
+                 $(this).toggleClass('transition');
+             });
+         });
+         $(document).ready(function(){
+             $(window).scroll(function(){
+                 var top = $(document).scrollTop();          //定义变量，获取滚动条的高度
+                 var menu = $("#menu");                      //定义变量，抓取#menu
+                 var items = $("#content").find(".item");    //定义变量，查找.item
+
+                 var curId = "";                             //定义变量，当前所在的楼层item #id
+
+                 items.each(function(){
+                     var m = $(this);                        //定义变量，获取当前类
+                     var itemsTop = m.offset().top;        //定义变量，获取当前类的top偏移量
+                     if(top > itemsTop-100){
+                         curId = "#" + m.attr("id");
+                     }else{
+                         return false;
+                     }
+                 });
+
+                 //给相应的楼层设置cur,取消其他楼层的cur
+                 var curLink = menu.find(".cur");
+                 if( curId && curLink.attr("href") != curId ){
+                     curLink.removeClass("cur");
+                     menu.find( "[href=" + curId + "]" ).addClass("cur");
+                 }
+                 // console.log(top);
+             });
+         });
+
+
+    </script>
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li><a href="#item1"  >个人微博</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="#item2">个人资料</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="#item3">作品锦集</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="#item4">活动经历</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="#item5">获奖情况</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+    </ul>
+</div>
+        <div>
+            <audio id="bgmMusic" src="music.mp3" autoplay="autoplay" loop="loop" preload="auto"></audio>
+            <div class="item1" id="item1">
+                <a href="https://weibo.com/tfyiyangqianxi?topnav=1&wvr=6&topsug=1&is_all=1"><img src="weibo.PNG">
+
+                </a>
+            </div>
+
+            <div class="item2" id="item2">
+                <div class="part01">
+                    <div class="title1">
+                        <div class="animated bounce">个人资料</div>
+                    </div>
+                    <div class="personal_data">
+                        <div class="animated pulse">
+                            <ul>
+                                <li>姓 &nbsp; 名：易烊千玺</li>
+                                <li>英文名：Jackson</li>
+                                <li>性 &nbsp; 别：男</li>
+                                <li>职 &nbsp; 业：歌手 舞者 演员</li>
+                                <li>生 &nbsp; 日：2000年11月28日</li>
+                                <li>星 &nbsp; 座：射手座</li>
+                                <li>出生地：湖南怀化</li>
+                                <li>粉丝名：千纸鹤</li>
+                                <li>组合名：TFboys</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pictures" >
+                    <ul class="cards-split">
+                        <li class="title">
+                        </li>
+                        <li class="card card-1"><img src="1.jpg"/>
+                        </li>
+                        <li class="card card-2"><img src="2.jpg"/>
+                        </li>
+                        <li class="card card-3"><img src="3.jpg"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item3" id="item3">
+                <div class="title2">
+                    <div class="animated bounce"><p>作品锦集</p></div>
+                </div>
+                <div class="work">
+
+                    <div class="work1"><a href="https://baike.baidu.com/item/%E5%B0%91%E5%B9%B4%E7%9A%84%E4%BD%A0/22756846?fr=aladdin"><img src="work1.png" ><h3 style="color: #0e0e0e">少年的你</h3></a></div>
+                    <div class="work3"><a href="#"><img src="work3.JPG" ><h3 style="color: #0e0e0e">长安十二时辰</h3></a></div>
+                    <div class="work2"><a href="#"><img src="work2.JPG" ><h3 style="color: #0e0e0e">艳势番</h3></a></div>
+                    <div class="work5"><a href="#"><img src="work5.JPG" ><h3 style="color: #0e0e0e">unpredictable</h3>v</a></div>
+                    <div class="work4"><a href="#"><img src="work4.JPG" ><h3 style="color: #0e0e0e">丹青千里</h3></a></div>
+                    <div class="work6"><a href="#"><img src="work6.png" ><h3 style="color: #0e0e0e">离骚</h3></a></div>
+
+
+                </div>
+            </div>
+            <div class="guodu" >
+                <img src="guodu-img.gif">
+            </div>
+            <div class="item4" id="item4">
+                <div class="title3">
+                    <div class="animated bounce"><p>活动经历</p></div>
+                </div>
+                <div id="experience">
+                    <div class="containers">
+                        <div class="pics">
+                            <p>春晚</p><img src="e1-1.jpeg" id="img1">
+                            <button id="btn">change</button>
+                        </div>
+                        <div class="pics">
+                            <p>第16届音乐风云榜年度盛典</p><img src="e2-1.jpeg" id="img2"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>Billboard Radio China 2017年度华语金曲</p><img src="e3-1.jpg" id="img3"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>丹麦王国首位国家旅游形象代言人</p><img src="e4-1.jpg" id="img4"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>《时装L'OFFICIEL》首位单封男星</p><img src="e5-1.jpg" id="img5"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>加盟优酷《这！就是街舞》</p><img src="e6-1.jpeg" id="img6"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>登上《芭莎男士》封面</p> <img src="e7-1.jpg" id="img7"><button>change</button>
+                        </div>
+                        <div class="pics">
+                            <p>参演雅加达亚运会闭幕式“杭州8分钟”</p><img src="e8-1.jpg" id="img8"><button>change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item5" id="item5">
+                <div class="title4">
+                    <div class="animated bounce">获奖情况</div>
+                </div>
+                <div class="solution-list">
+                    <ul id="solutionList" class="clearfix">
+                        <li>
+                            <div class="solution-item-wrapper solution-item-01">
+                                <p class="solution-title">个人奖项</p>
+                                <div class="short-bar"></div>
+                                <p class="solution-intro">Billboard Radio China 2017年度华语金曲</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="solution-item-wrapper solution-item-02">
+                                <p class="solution-title">个人奖项</p>
+                                <div class="short-bar"></div>
+                                <p class="solution-intro">2017ELLE风尚大典 &nbsp&nbsp&nbspELLE年度人气偶像</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                        </li>
+                        <li  class="active">
+                            <div class="solution-item-wrapper solution-item-03">
+                                <p class="solution-title">TFboys团体奖项-移动视频风云盛典</p>
+                                <div class="short-bar"></div>
+                                <p class="solution-intro">年度影响力偶像组合&nbsp&nbsp年度杰出公益人物&nbsp&nbsp年度偶像先锋</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="solution-item-wrapper solution-item-04">
+                                <p class="solution-title">TFboys团体奖项</p>
+                                <div class="short-bar"></div>
+                                <p class="solution-intro"> 2017中国慈善名人榜榜首</p>
+                                <a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%85%88%E5%96%84%E5%90%8D%E4%BA%BA%E6%A6%9C/4451476?fr=aladdin">查看详情</a>
+                            </div>
+                        </li>
+                        <li class="product-special-li-5">
+                            <div class="solution-item-wrapper solution-item-05">
+                                <p class="solution-title">TFboys团体奖项</p>
+                                <div class="short-bar"></div>
+                                <p class="solution-intro">新浪微博之夜-微博之夜King</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
